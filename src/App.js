@@ -47,6 +47,8 @@ function App() {
         <Route path="/admin/user" element={<ListUserComponent />}/>
         <Route path="/admin/user/:usersId" element={<UserDetailComponent />}/>
         <Route path="/admin/user/add" element={<UserDetailComponent />}/>
+
+        {/* <Route path="/product/:brand" element={<HomeComponent />}/> */}
  
       </Routes>
       </div>

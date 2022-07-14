@@ -6,7 +6,7 @@ import Header from '../../header/Header';
 
 
 function HomeComponent() {
-    const BASE_URL= 'http://localhost:9999/product'
+    const BASE_URL= 'http://localhost:9999/product/enable'
     const [products, setProducts] = useState([])
     const getProduct = () => {
         axios.get(BASE_URL).then(res => {setProducts(res.data); })
